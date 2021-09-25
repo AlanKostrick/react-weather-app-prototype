@@ -30,6 +30,7 @@ We will be rolling back `node-sass` to `4.14.1`
 - Custom routing to endpoints such as `/`, `/cities` and `/cities:slug` as well as customized error handling for routes that do not exist
 - Presentational components (for looks do not manage data(state))
 - Stateful Components (handle, manage, pass data(state))
-- CSS Modules: custom stylsheets for each page or component!
+- CSS Modules: custom stylesheets for each page or component, mixins and variables!
 - React hooks for `useState` and `useEffect`
 - Functional components only...because of React hooks
+- _Time Permitting:_ Use async/await and react hooks to grab data from an existing api
