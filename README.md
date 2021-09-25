@@ -24,6 +24,7 @@ This demo will create a basic weather app to randomly assign a weather pattern f
 - `npm install node-sass`: Needed for CSS Modules to work
 - `npm install react-css-modules`: Allows a custom/unique stylesheet for each component or page that you build...no need to worry if you duplicate `classNames`
 - `npm install classnames`: Will allow for multiple classNames to be assigned to your JSX
+- `npm install axios`: We will use Axios to make a get request to an api
 
 #### Dev note
 
@@ -31,6 +32,7 @@ This demo will create a basic weather app to randomly assign a weather pattern f
 
 ### This Demo App covers
 
+- An overview of `VS Code` plugins and extensions, tools to make this job a bit smoother
 - Custom routing to endpoints such as `/`, `/cities` and `/cities:slug` as well as customized error handling for routes that do not exist
 - Presentational components (for looks do not manage data(state))
 - Stateful Components (handle, manage, pass data(state))
@@ -38,6 +40,8 @@ This demo will create a basic weather app to randomly assign a weather pattern f
 - React hooks for `useState` and `useEffect`
 - Functional components only...because of React hooks
 - _Time Permitting:_ Use async/await and react hooks to grab data from an existing api
+  - Conditional loading from an api
+  - Loading spinners
 
 ### Challenges moving forward
 
