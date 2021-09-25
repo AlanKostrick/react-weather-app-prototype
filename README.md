@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ## What are we building?
 
-This demo will create a basic weather app to randomly assign a weather pattern for the day, **:sunny:** :sun_behind_small_cloud: :cloud: :umbrella: etc. to a particular city that exists in our mocked up database
+This demo will create a basic weather app to randomly assign a weather pattern for the day, :sunny: :sun_behind_small_cloud: :cloud: :umbrella: etc. to a particular city that exists in our mocked up database
 
 ### Dependencies installed in this project
 
@@ -38,3 +38,10 @@ This demo will create a basic weather app to randomly assign a weather pattern f
 - React hooks for `useState` and `useEffect`
 - Functional components only...because of React hooks
 - _Time Permitting:_ Use async/await and react hooks to grab data from an existing api
+
+### Challenges moving forward
+
+Put what you have learned to the test by adding more to the mocked database/array in this project...perhaps...
+
+- Based on a particular weather condition, you have a list of suggested activities to complete for the day? :beach_umbrella: :bicyclist: :surfer: :skier: :golfing:
+- Display the 5 day forecast with temperatures, high and low for the day :thermometer:
