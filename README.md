@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ## What are we building?
 
-This demo will create a basic weather app to randomly assign a weather pattern for the day, :sunny :cloud :umbrella etc. to a particular city that exists in our mocked up database
+This demo will create a basic weather app to randomly assign a weather pattern for the day, :sunny: :cloud: :umbrella: etc. to a particular city that exists in our mocked up database
 
 ### Dependencies installed in this project
 
@@ -27,7 +27,7 @@ This demo will create a basic weather app to randomly assign a weather pattern f
 
 #### Dev note
 
-We will be rolling back `node-sass` to `4.14.1`
+:writing_hand: We will be rolling back `node-sass` to `4.14.1`
 
 ### This Demo App covers
 
