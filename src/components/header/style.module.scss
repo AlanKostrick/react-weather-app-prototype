@@ -1,0 +1,25 @@
+.header__container {
+  background-color: #aaa;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 200px;
+
+  & a {
+    background-color: #444444;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width: 80px;
+  }
+
+  & a:active {
+    background-color: #111111;
+    transition: 0.5s;
+  }
+}

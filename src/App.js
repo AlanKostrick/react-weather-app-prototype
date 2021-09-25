@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { baltimore, cleveland, columbus } from "./assets/images";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/header";
+import { PageSwitch } from "./components/app-router";
+
+const App = () => {
+
+    const weatherPatterns = ['cloudy', 'partly cloudy', 'rainy', 'stormy', 'sunny'];
+
+    const cities = [
+        {
+            cityName: 'Baltimore',
+            image: baltimore,
+            slug: 'baltimore',
+            weatherForecast: weatherPatterns[Math.floor(Math.random() * weatherPatterns.length)]
+        },
+        {
+            cityName: 'Cleveland',
+            image: cleveland,
+            slug: 'cleveland',
+            weatherForecast: weatherPatterns[Math.floor(Math.random() * weatherPatterns.length)]
+        },
+        {
+            cityName: 'Columbus',
+            image: columbus,
+            slug: 'columbus',
+            weatherForecast: weatherPatterns[Math.floor(Math.random() * weatherPatterns.length)]
+        }
+    ]
+
+    return (
+        <BrowserRouter>
+            <Header />
+            <PageSwitch cities={cities} />
+        </BrowserRouter>
+    )
 }
 
 export default App;

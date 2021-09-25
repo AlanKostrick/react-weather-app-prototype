@@ -1,0 +1,10 @@
+@mixin actionButton {
+  background: navy;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  height: 50px;
+  margin: 20px 0;
+  width: 200px;
+}
