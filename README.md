@@ -14,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## What are we building?
+
+This demo will create a basic weather app to randomly assign a weather pattern for the day, :sunny :cloud :umbrella etc. to a particular city that exists in our mocked up database
+
 ### Dependencies installed in this project
 
 - `npm install react-router-dom`: To manage custom endpoints(urls)
